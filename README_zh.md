@@ -31,8 +31,8 @@
 
 将本项目克隆到您的本地：
 ```bash
-git clone [您的仓库URL]
-cd [您的仓库目录]
+git clone https://github.com/xyc0123456789/whisper_dictate.git
+cd whisper_dictate
 ```
 或者，直接下载本仓库的 ZIP 文件并解压。
 

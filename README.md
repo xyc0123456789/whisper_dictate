@@ -32,10 +32,10 @@ Powered by OpenAI's powerful Whisper model, this tool is optimized for both perf
 ### 2. Get the Code
 
 Clone the repository to your local machine:
-···bash
-git clone [YOUR_REPOSITORY_URL]
-cd [YOUR_REPOSITORY_DIRECTORY]
-···
+```bash
+git clone https://github.com/xyc0123456789/whisper_dictate.git
+cd whisper_dictate
+```
 Alternatively, download and extract the ZIP file.
 
 ### 3. Install Dependencies
@@ -43,9 +43,9 @@ Alternatively, download and extract the ZIP file.
 **Choose the command that matches your operating system!**
 
 *   **For Windows & Linux:** (Uses the `keyboard` library)
-    ···bash
-    pip install openai-whisper sounddevice numpy keyboard scipy zhconv torch
-    ···
+    ```bash
+    pip install openai-whisper sounddevice numpy keyboard scipy zhconv
+    ```
 
 ## ▶️ How to Use
 
@@ -53,9 +53,9 @@ Alternatively, download and extract the ZIP file.
 
 Navigate to the project directory in your terminal and run the script:
 
-···bash
+```bash
 python whisper_dictate.py
-···
+```
 
 The script will launch an interactive setup wizard:
 1.  **Select Microphone**: A list of available input devices will be shown. Enter the corresponding number.
